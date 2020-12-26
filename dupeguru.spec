@@ -29,7 +29,7 @@ Requires:       python-hsaudiotag3k
 Requires:       python-jobprogress
 Requires:       python-polib
 Requires:       python-qt5
-Requires:       python-xml
+Requires:       python-libxml2
 
 %description
 dupeGuru is a tool to find duplicate files on your computer. It can scan
