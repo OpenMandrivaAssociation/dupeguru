@@ -22,6 +22,7 @@ BuildRequires:  python-pytest
 BuildRequires:  python-pytest-monkeyplus
 BuildRequires:  python-flake8
 BuildRequires:  python-devel
+BuildRequires:  python-sip-qt5
 
 Requires:       python-Send2Trash >= 1.3.0
 Requires:       python-hsaudiotag3k
