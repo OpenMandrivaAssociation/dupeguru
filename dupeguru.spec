@@ -4,7 +4,7 @@
 
 Name:           dupeguru
 Version:        %{gitsnapshot}
-Release:        0
+Release:        1
 Summary:     Duplicate File Finder with fuzzy picture and music file support
 License:        GPLv3
 URL:            https://dupeguru.voltaicideas.net/
@@ -30,6 +30,7 @@ Requires:       python-jobprogress
 Requires:       python-polib
 Requires:       python-qt5
 Requires:       python-libxml2
+Requires:       python-sip-qt5
 
 %description
 dupeGuru is a tool to find duplicate files on your computer. It can scan
