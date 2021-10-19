@@ -1,10 +1,10 @@
 %bcond_without tests
 %define gitsnapshot 20201027
-%global debug_package %{nil}
+%define _empty_manifest_terminate_build 0
 
 Name:           dupeguru
 Version:        %{gitsnapshot}
-Release:        1
+Release:        2
 Summary:     Duplicate File Finder with fuzzy picture and music file support
 License:        GPLv3
 URL:            https://dupeguru.voltaicideas.net/
