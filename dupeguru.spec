@@ -4,7 +4,7 @@
 
 Name:           dupeguru
 Version:        %{gitsnapshot}
-Release:        2
+Release:        3
 Summary:     Duplicate File Finder with fuzzy picture and music file support
 License:        GPLv3
 URL:            https://dupeguru.voltaicideas.net/
@@ -114,7 +114,7 @@ install -Dm 644 %{name}.desktop \
 %{_datadir}/icons/hicolor/*/*/%{name}.*
 
 
-# %{python3_sitearch}/%{name}/core/__pycache__/
+
 %{python3_sitearch}/%{name}/core/gui/
 %{python3_sitearch}/%{name}/core/me/
 %{python3_sitearch}/%{name}/core/pe/
@@ -125,4 +125,3 @@ install -Dm 644 %{name}.desktop \
 %{python3_sitearch}/%{name}/qt/
 %{python3_sitearch}/%{name}/qtlib/
 %{python3_sitearch}/%{name}/run.py
-# %{python3_sitearch}/%{name}/__pycache__/
