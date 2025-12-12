@@ -5,7 +5,7 @@
 Summary:	Duplicate File Finder with fuzzy picture and music file support
 Name:		dupeguru
 Version:	4.3.1
-Release:	2 
+Release:	3 
 License:	GPLv3
 URL:		https://dupeguru.voltaicideas.net/
 Source0:	https://github.com/arsenetar/dupeguru/archive/%{version}/%{name}-%{version}.tar.gz
