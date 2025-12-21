@@ -9,6 +9,7 @@ Release:	3
 License:	GPLv3
 URL:		https://dupeguru.voltaicideas.net/
 Source0:	https://github.com/arsenetar/dupeguru/archive/%{version}/%{name}-%{version}.tar.gz
+BuildRequires:	make
 BuildRequires:	desktop-file-utils
 BuildRequires:	fdupes
 BuildRequires:	gettext
